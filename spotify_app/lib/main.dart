@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:spotify_app/screens/SplashScreen.dart';
 import 'package:spotify_app/screens/login_screen.dart';
 
-import 'homeScreen.dart';
+import 'screens/base_screen.dart';
 
 
 void main() {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Roboto',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: BaseScreen(),
     );
   }
 }

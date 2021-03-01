@@ -20,23 +20,25 @@ class MiniContainer extends StatelessWidget {
               height: 47,
               child: SizedBox(
                 child: Expanded(
-                  child: Row(
-                    children: [
-                      Image.asset('images/logo.png'),
-                      Container(
-                        margin: EdgeInsets.all(5),
-                        child: FlatButton(
-                          onPressed: () {},
-                          child: Text(
-                            text,
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            softWrap: false,
-                            style: TextStyle(decoration: TextDecoration.none),
+                  child: Center(
+                    child: Row(
+                      children: [
+                        Image.asset('images/logo.png'),
+                        Container(
+                          margin: EdgeInsets.all(5),
+                          child: FlatButton(
+                            onPressed: () {},
+                            child: Text(
+                              text,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              softWrap: false,
+                              style: TextStyle(decoration: TextDecoration.none),
+                            ),
                           ),
-                        ),
-                      )
-                    ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
