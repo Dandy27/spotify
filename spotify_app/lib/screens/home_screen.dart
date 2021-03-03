@@ -95,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 MediunContainer(
                   imageMediun: Image.asset(
                     'images/top50mund.jpg',
-                    width: 112,
+                    width: 109,
                     height: 106,
                   ),
                   textMediun: 'Pardas',
