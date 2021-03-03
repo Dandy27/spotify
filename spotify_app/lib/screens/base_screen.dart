@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_app/componentes/mini_container2.dart';
+import 'package:spotify_app/componentes/mini_container.dart';
 import 'package:spotify_app/screens/SplashScreen.dart';
 import 'package:spotify_app/screens/login_screen.dart';
 

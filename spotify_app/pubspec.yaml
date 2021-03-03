@@ -49,6 +49,11 @@ flutter:
     - images/logo.png
     - images/background.png
     - images/rock.jpg
+    - images/dancehits.png
+    - images/happy.png
+    - images/oneweek.jpg
+    - images/pagode.png
+    - images/sertanejo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
