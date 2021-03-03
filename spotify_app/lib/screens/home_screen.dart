@@ -16,19 +16,16 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(15.0),
         child: Column(
           children: [
-            Container(
-            height: 40,
-            alignment: Alignment.centerLeft,
-            child: FlatButton(
-              onPressed: () {},
-              child: Text(
-                'Boa Noite',
-                style: TextStyle(fontSize: 25),
-                textAlign: TextAlign.left,
+            Align(
+              alignment: Alignment.centerLeft,
+              child: FlatButton(
+                padding: EdgeInsets.zero,
+                onPressed: (){},
+                child: const Text('Boa Noite', style: TextStyle(fontSize: 20),),
               ),
-            )),
+              ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
