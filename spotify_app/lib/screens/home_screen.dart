@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_app/mini_container_02.dart';
+import 'package:spotify_app/componentes/mediun_container.dart';
+import 'package:spotify_app/componentes/mini_container_02.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -20,10 +21,13 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: Alignment.centerLeft,
               child: FlatButton(
                 padding: EdgeInsets.zero,
-                onPressed: (){},
-                child: const Text('Boa Noite', style: TextStyle(fontSize: 20),),
+                onPressed: () {},
+                child: const Text(
+                  'Boa Noite',
+                  style: TextStyle(fontSize: 20),
+                ),
               ),
-              ),
+            ),
             SizedBox(
               height: 10,
             ),
@@ -69,6 +73,32 @@ class _HomeScreenState extends State<HomeScreen> {
                 MiniContainer_02(
                   imageMini: Image.asset('images/sertanejo.png'),
                   textMini: "Sertanejo ",
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: FlatButton(
+                padding: EdgeInsets.zero,
+                onPressed: () {},
+                child: const Text(
+                  'Tocadas recentemente',
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
+            ),
+            Row(
+              children: [
+                MediunContainer(
+                  imageMediun: Image.asset(
+                    'images/top50mund.jpg',
+                    width: 112,
+                    height: 106,
+                  ),
+                  textMediun: 'Pardas',
                 ),
               ],
             )

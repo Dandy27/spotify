@@ -32,7 +32,7 @@ class MiniContainer_02 extends StatelessWidget {
                   textMini,
                   overflow: TextOverflow.ellipsis,
                   maxLines: 2,
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 12),
                 )),
           ),
           SizedBox(width: 45,
